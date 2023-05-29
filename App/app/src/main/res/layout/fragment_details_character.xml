@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:text="@string/comics"
-                android:textColor="@color/Black"
+                android:textColor="@color/black"
                 android:textAlignment="inherit"
                 android:textSize="20sp"
                 android:textStyle="italic"
