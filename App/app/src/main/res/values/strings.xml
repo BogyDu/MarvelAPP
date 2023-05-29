@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Aplicacion Marvel</string>
+    <string name="marvel">Aplicacion Marvel</string>
+    <string name="tx_item_name">Nombre</string>
+    <string name="tv_item_description">Descripcion</string>
+    <string name="text_description_empty">No existe descripcion</string>
+    <string name="comics">Comics</string>
+    <string name="empty_list_comics">Vacio</string>
+    <string name="close_dialog">Cerrar</string>
+    <string name="search_hint">Buscar</string>
+    <string name="dialog_title_text">Borrar</string>
+    <string name="dialog_message_text">Seguro que desea eliminar ?</string>
+    <string name="dialog_positive_text">Borrar</string>
+    <string name="dialog_negative_text">Cancelar</string>
+    <string name="message_delete_character">Eliminado</string>
+    <string name="tv_empty_text">vacio.</string>
+    <string name="favorite">FAVS</string>
+    <string name="an_error_occurred">Error</string>
+    <string name="saved_successfully">Guardado OK </string>
+    <string name="textDescriptionEmpty">No hay descripcion</string>
+    <string name="on_error">Error</string>
+
+</resources>
