@@ -8,7 +8,11 @@ import b.gaytan.app.data.local.MarvelDatabase
 import b.gaytan.app.data.remote.Service
 import b.gaytan.app.di.Module
 import b.gaytan.app.repository.MarvelRepository
+import b.gaytan.app.ui.list.ListCharacterViewModel
+import junit.framework.TestCase.assertEquals
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.flowOn
+import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.runBlocking
 import okhttp3.OkHttpClient
 import org.junit.Before
@@ -61,10 +65,9 @@ class ExampleUnitTest {
 
     @Test
     fun `test flow`(){
-         runBlocking {
-            var item1 =  MarvelRepository(api!!, dao!!).getAll().first()
-
-            assert(item1.isEmpty())
+        runBlocking {
+            var repo  = MarvelRepository(api!!, dao!!)
+            assertEquals(dao!!.getAll().first(),repo.getAll().first())
         }
 
     }
